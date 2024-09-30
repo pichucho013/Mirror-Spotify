@@ -11,9 +11,10 @@ const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <p>          
           Home
         </p>
+        <button type="button" class="btn btn-primary">Base class</button>
         <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Login</a>
       </header>
     </div>
